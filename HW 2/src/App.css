@@ -5,7 +5,7 @@
 }
 
 .post{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 2px solid #c5c1c1;
