@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+.post{
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #c5c1c1;
+  border-radius: 10px;
+  padding: 5px;
+  width: 35%;
+}
+img{
+  width: 285px;
+  grid-row: 3/6;
+  grid-column: 2/2;
+  border-radius: 15px;
+}
+.date{
+  grid-row: 1/1;
+  align-self: end;
+}
+.lesson_num{
+  grid-row: 2/2;
+  margin: 0;
+}
+h3{
+  grid-row: 3/3;
+  margin: 0;
+}
+.text{
+  grid-row: 4/4;
+  margin: 0;
+}
+.author{
+  grid-row: 5/5;
+  margin: 0;
+  align-self: end;
+  font-size: 12px;
+}
